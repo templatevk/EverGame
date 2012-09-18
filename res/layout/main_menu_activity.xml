@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_activity_bg2"
+    android:gravity="center"
+    android:orientation="vertical">
+    <pp.game.controls.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newGameBtn"
+        android:text="@string/main_menu_activity_newGame" 
+        style="@style/MainMenuItem"/>
+    <pp.game.controls.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highScoresBtn"
+        android:text="@string/main_menu_activity_highScores"
+        style="@style/MainMenuItem"/>
+    <pp.game.controls.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exitBtn"
+        android:text="@string/main_menu_activity_exit"
+        style="@style/MainMenuItem"/>
+</LinearLayout>
