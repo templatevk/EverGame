@@ -5,19 +5,23 @@
     android:background="@drawable/main_activity_bg2"
     android:gravity="center"
     android:orientation="vertical">
-    <pp.game.controls.CustomTextView
+    
+    <pp.game.controls.MainMenuItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/newGameBtn"
-        android:text="@string/main_menu_activity_newGame" 
+        android:text="@string/main_menu_activity_newGame"
+        android:onClick="onNewGameClicked" 
         style="@style/MainMenuItem"/>
-    <pp.game.controls.CustomTextView
+    
+    <pp.game.controls.MainMenuItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/highScoresBtn"
         android:text="@string/main_menu_activity_highScores"
         style="@style/MainMenuItem"/>
-    <pp.game.controls.CustomTextView
+    
+    <pp.game.controls.MainMenuItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/exitBtn"
