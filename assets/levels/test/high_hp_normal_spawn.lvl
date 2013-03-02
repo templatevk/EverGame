@@ -1,0 +1,9 @@
+music=BASE_2
+background=BASE_3
+
+monsters.types=RUNNER
+monsters.spawn.interval=3
+monsters.spawn.interval.decrement=0
+
+player.hp.initial=55555
+player.hp.max=55555

@@ -1,6 +1,15 @@
 <resources>
-    <string name="app_name">BestGameEver</string>
+    <string name="app_name">EverGame</string>
+
+    <!-- Affinities' names -->
+    <string name="game_affinity">pp.game.gameplay</string>
+    <string name="menu_affinity">pp.game.menu</string>
+    
+    <!-- Activities' controls' text -->
     <string name="main_menu_activity_newGame">New Game</string>
     <string name="main_menu_activity_highScores">High Scores</string>
     <string name="main_menu_activity_exit">Exit</string>
+    
+    <string name="pause_menu_activity_resume">Resume</string>
+    <string name="pause_menu_activity_mainMenu">Main menu</string>
 </resources>

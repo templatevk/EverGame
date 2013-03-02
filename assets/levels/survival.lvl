@@ -1,0 +1,9 @@
+music=BASE_1
+background=BASE_3
+
+player.hp.initial=100
+player.hp.max=100
+
+monsters.types=ZOMBIE,SPIDER,RUNNER
+monsters.spawn.interval=7,5,4
+monsters.spawn.interval.decrement=0.05,0.05,0.05

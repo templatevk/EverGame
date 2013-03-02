@@ -1,0 +1,8 @@
+music=BASE_2
+background=BASE_3
+
+monsters.types=RUNNER,SPIDER,ZOMBIE
+monsters.spawn.interval=0,0,0
+monsters.spawn.interval.decrement=0,0,0
+
+player.hp.initial=5

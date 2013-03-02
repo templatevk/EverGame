@@ -1,9 +1,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="TranslucentTheme" parent="android:Theme.Translucent"/>
     
     <style name="MainMenuItem">
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">44sp</item>
         <item name="android:typeface">serif</item>   
+        <item name="android:shadowRadius">7</item>
     </style>
 </resources>

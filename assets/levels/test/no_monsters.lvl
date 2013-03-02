@@ -1,0 +1,5 @@
+music=BASE_1
+background=BASE_0
+
+player.hp.initial=777777
+player.hp.max=777777

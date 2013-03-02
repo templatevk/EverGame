@@ -2,25 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/main_activity_bg2"
+    android:background="@drawable/main_activity_background"
     android:gravity="center"
     android:orientation="vertical">
-    <pp.game.controls.CustomTextView
+    
+    <pp.game.ui.MainMenuItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/newGameBtn"
-        android:text="@string/main_menu_activity_newGame" 
+        android:text="@string/main_menu_activity_newGame"
+        android:onClick="onNewGameClicked" 
         style="@style/MainMenuItem"/>
-    <pp.game.controls.CustomTextView
+    
+    <pp.game.ui.MainMenuItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/highScoresBtn"
         android:text="@string/main_menu_activity_highScores"
+        android:onClick="onHighScoresClicked"
         style="@style/MainMenuItem"/>
-    <pp.game.controls.CustomTextView
+    
+    <pp.game.ui.MainMenuItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/exitBtn"
         android:text="@string/main_menu_activity_exit"
+        android:onClick="onExitClicked"
         style="@style/MainMenuItem"/>
 </LinearLayout>
